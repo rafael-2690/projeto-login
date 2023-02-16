@@ -2,6 +2,7 @@
 
 section#login{
     width: 85vw;
+    height: 280px;
 }
 div#img{
     float: left;

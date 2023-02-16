@@ -30,8 +30,8 @@ section#login{
     overflow: hidden;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    transform: translate(-50%, -50%);
     
     transition: width 0.2s, height 0.2s;
     transition-timing-function: ease;
@@ -97,10 +97,27 @@ div.campo{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: 5px;
     margin-bottom: 5px;
+    border: 1px solid #7e4e9e;
 }
 div.campo > label{
     display: none;
+}
+div.campo > span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo>input{
+    background-color: #61dad6;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px; 
+    padding: 4px;
+    transform: translateY(-10px);   
 }
